@@ -1,0 +1,6 @@
+.top-banner{
+    background-image: url('../../media/pictures/topbanner.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 65vh;
+}
