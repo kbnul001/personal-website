@@ -1,6 +1,13 @@
 .top-banner{
     background-image: url('../../media/pictures/topbanner.jpeg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 65vh;
+    background-size: auto;
+    height: 75vh;
 }
+
+@media only screen and (max-width: 600px) {
+    .top-banner {
+      background-size: auto;
+      height: 55vh;
+    }
+  }

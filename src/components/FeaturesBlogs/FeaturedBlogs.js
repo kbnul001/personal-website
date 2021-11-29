@@ -19,7 +19,7 @@ const FeaturedBlogs = () => {
     return (
         <div>
             <h1 className="text-gray-600 text-3xl text-center pt-16 font-bold tracking-wider">Featured Blogs</h1>
-            <section className="grid grid-cols-1 gap-16 mx-36 my-10">
+            <section className="grid grid-cols-1 gap-16 mx-6 md:mx-36 my-10">
                 {
                     blogs.map(blog => <BlogCard
                         key={blog.title}

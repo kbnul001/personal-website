@@ -5,7 +5,7 @@ const IntroBanner = () => {
         <div>
             <section className="space-y-10 md:pt-24 text-left md:space-y-0 md:mx-32 my-16 grid md:grid-cols-2 grid-cols-1 ">
                 <div data-aos="fade-right" className="flex items-center justify-center  md:border-r-2">
-                    <div id="introduction" className="md:mr-16 p-4">
+                    <div id="introduction" className="md:mr-16 p-4 text-center md:text-left">
                         <h1 className="text-3xl mb-8 font-semibold text-gray-600">Kamil Hassan</h1>
                         <p className="tracking-wide text-gray-600">I was born in Bangladesh in 2002. Now I am completing my
                             undergraduate

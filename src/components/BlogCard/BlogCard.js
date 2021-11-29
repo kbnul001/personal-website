@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const BlogCard = (props) => {
-    const { title, img, details, postTime } = props.blog;
+    const { title, img, details, postTime, link } = props.blog;
     return (
         <div data-aos="zoom-in-up" className="">
             <div className=" blogs md:grid md:grid-cols-3 shadow-xl rounded-sm hover:shadow-2xl p-6 bg-gray-100">
@@ -13,7 +13,7 @@ const BlogCard = (props) => {
                     <p className="text-sm text-black">{details.slice(0, 200)}
                     </p>
                     <p className="font-light text-gray-500 my-2"><small><i className="far fa-clock"></i> {postTime}</small></p>
-                    <a href="df"
+                    <a target="_blank" rel="noreferrer" href={link}
                         className="py-2 px-3 mt-4 text-white bg-purple-400 inline-block rounded  hover:shadow-lg hover:bg-purple-700">Read More</a>
                 </div>
             </div>

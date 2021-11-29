@@ -11,7 +11,7 @@ const FeaturedProjects = () => {
     return (
         <div>
             <h1 className="text-gray-600 text-3xl text-center pt-16 font-bold tracking-wider my-16">Featured Projects</h1>
-            <section className="grid grid-cols-1 md:grid-cols-2  md:mx-36 gap-16">
+            <section className="grid grid-cols-1 md:grid-cols-2 mx-6 md:mx-36 gap-16">
                 {
                     projects.map(p => <Project
                         key={p.title}
