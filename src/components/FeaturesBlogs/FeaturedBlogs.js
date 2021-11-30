@@ -1,6 +1,4 @@
 import React, { useEffect } from 'react';
-import habit7 from '../../media/Blogs/7habit.jpeg';
-import aggrement from '../../media/Blogs/4aggrement.jpeg';
 import Aos from 'aos';
 import BlogCard from '../BlogCard/BlogCard';
 

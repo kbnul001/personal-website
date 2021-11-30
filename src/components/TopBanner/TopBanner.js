@@ -1,4 +1,5 @@
 import React from 'react';
+import Typing from 'react-typing-animation';
 import kamil from '../../media/pictures/kamil-intro.jpeg';
 import '../TopBanner/TopBanner.css';
 
@@ -9,7 +10,10 @@ const TopBanner = () => {
                 <div className=""><img className="rounded-full border-8 border-blue-400" src={kamil}
                     alt="" />
                 </div>
-                <p id="intro-text" className="text-white text-center mt-4 text-lg text-space tracking-wide">I'm Kamil Hassan</p>
+
+                <Typing>
+                    <p id="intro-text" className="text-white  text-center mt-4 text-xl text-space tracking-wide">Hi! I'm Kamil Hassan</p>
+                </Typing>
             </section>
         </div>
     );

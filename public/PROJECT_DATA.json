@@ -2,9 +2,9 @@
     {
         "name": "Happy Cat Care",
         "time": 3,
-        "overview1": "A complete pet service website with firebase authentication.",
+        "overview1": "A fully responsive pet service site developed with firebase authentication system to enhance security.",
         "overview2": "Dashboard Feature, with admin privilege to add & manage services",
-        "overview3": "Different nested route for different users & add review system.",
+        "overview3": "Customers can add review with rating and manage their own ordered services.",
         "clientLink": "https://github.com/kbnul001/happy-cat-care-client",
         "serverLink": "https://github.com/kbnul001/happy-cat-care-server",
         "liveLink": "https://happy-cat-care.web.app/",
@@ -14,9 +14,9 @@
     {
         "name": "Impel Tourism",
         "time": 3,
-        "overview1": "A Tourism Website with Firebase authentication system",
-        "overview2": "Add more destinations with a form and mobile responsive",
-        "overview3": "Manage all orders, my orders, change status to approves from pending",
+        "overview1": "A mobile responsive Tourism Website with Firebase authentication for enhanced security system.",
+        "overview2": "Users can add new tour destination by providing informations in a form created with react hook form.",
+        "overview3": "All documents stored in MongoDB and data was fetched in backend by using express.",
         "clientLink": "https://github.com/kbnul001/Impel-tourism",
         "serverLink": "https://github.com/kbnul001/impel-tourism-server",
         "liveLink": "https://impel-tourism.web.app/",
@@ -26,12 +26,23 @@
     {
         "name": "Impel Health Care",
         "time": 2,
-        "overview1": "A Health Care Related Site with Google, Github & Email Sing in.",
-        "overview2": "Private/ Protected Route system.",
+        "overview1": "A Health Care Related Site with Google, Github & Email sign in system for a better user experience.",
+        "overview2": "Private/ Protected Route for a better security system.",
         "overview3": "Dynamic Route System and fully responsive website.",
         "clientLink": "https://github.com/kbnul001/Impel-health-care",
         "liveLink": "https://impel-health-care.web.app/",
         "img": "https://i.ibb.co/tKYp9yB/impelhealthmobile.jpg",
         "technology": "React, Tailwind, Firebase React Router, React Hook"
+    },
+    {
+        "name": "Impel Language Center",
+        "time": 1,
+        "overview1": "Firebase authentication system with Google, GitHub and Email sign in option for easy login.",
+        "overview2": "Tailwind CSS was used to customize the design and make website look attractive",
+        "overview3": "Protected route system and React Router v5 used to create single page application",
+        "clientLink": "https://github.com/kbnul001/impel-language-center",
+        "liveLink": "https://impel-language-center.web.app/",
+        "img": "https://i.ibb.co/Q8BjGZ7/smartmockups-kwlvfu7b.jpg",
+        "technology": "React, Tailwind, Firebase React Router"
     }
 ]
