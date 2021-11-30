@@ -61,10 +61,27 @@ const Header = (props) => {
                             <li className="nav-item">
                                 <NavLink
                                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                                    to="/blogs"
+                                >
+                                    <span className="ml-2">Blogs</span>
+                                </NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink
+                                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                                     to="/contact"
                                 >
                                     <span className="ml-2">Contact Me</span>
                                 </NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <a
+                                    target="_blank" rel="noreferrer"
+                                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                                    href="https://drive.google.com/file/d/1GO1dRgU9-QHvC382SULnK1GAQ9cUblJ7/view"
+                                >
+                                    <span className="ml-2">My Resume</span>
+                                </a>
                             </li>
 
 

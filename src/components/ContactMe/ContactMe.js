@@ -4,7 +4,6 @@ import Header from '../Header/Header';
 import emailjs from 'emailjs-com';
 
 const ContactMe = () => {
-    const [contactInfo, setContactInfo] = useState({});
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -35,7 +34,7 @@ const ContactMe = () => {
                             <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-first-name">
                                 Name
                             </label>
-                            <input required name="user_name" className="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane" />
+                            <input required name="user_name" className="appearance-none block w-full bg-gray-200 text-gray-700 border  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-gray-500 focus:bg-white" id="grid-first-name" type="text" placeholder="Jane" />
 
                         </div>
 

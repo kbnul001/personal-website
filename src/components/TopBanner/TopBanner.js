@@ -12,7 +12,7 @@ const TopBanner = () => {
                 </div>
 
                 <Typing>
-                    <p id="intro-text" className="text-white  text-center mt-4 text-xl text-space tracking-wide">Hi! I'm Kamil Hassan</p>
+                    <p className="text-white  text-center mt-4 text-xl text-space tracking-wide">Hi! I'm Kamil</p>
                 </Typing>
             </section>
         </div>
